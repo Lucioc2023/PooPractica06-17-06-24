@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Ejercicio02.Datos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Ejercicio02.Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ejercicio02.Datos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ejercicio02.Datos.dll": {}
+        }
+      },
+      "Ejercicio02.Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ejercicio02.Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ejercicio02.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercicio02.Datos/1.0.0": {
+      "type": "project",
+      "path": "../Ejercicio02.Datos/Ejercicio02.Datos.csproj",
+      "msbuildProject": "../Ejercicio02.Datos/Ejercicio02.Datos.csproj"
+    },
+    "Ejercicio02.Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Ejercicio02.Entidades/Ejercicio02.Entidades.csproj",
+      "msbuildProject": "../Ejercicio02.Entidades/Ejercicio02.Entidades.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Ejercicio02.Datos >= 1.0.0",
+      "Ejercicio02.Entidades >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio02.Windows\\Ejercicio02.Windows.csproj",
+      "projectName": "Ejercicio02.Windows",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio02.Windows\\Ejercicio02.Windows.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio02.Windows\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio02.Datos\\Ejercicio02.Datos.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio02.Datos\\Ejercicio02.Datos.csproj"
+            },
+            "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio02.Entidades\\Ejercicio02.Entidades.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio02.Entidades\\Ejercicio02.Entidades.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

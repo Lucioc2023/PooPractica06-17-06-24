@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Ejercicio01.Datos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ejercicio01.Datos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ejercicio01.Datos.dll": {}
+        }
+      },
+      "Ejercicio01.Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ejercicio01.Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ejercicio01.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercicio01.Datos/1.0.0": {
+      "type": "project",
+      "path": "../Ejercicio01.Datos/Ejercicio01.Datos.csproj",
+      "msbuildProject": "../Ejercicio01.Datos/Ejercicio01.Datos.csproj"
+    },
+    "Ejercicio01.Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Ejercicio01.Entidades/Ejercicio01.Entidades.csproj",
+      "msbuildProject": "../Ejercicio01.Entidades/Ejercicio01.Entidades.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "Ejercicio01.Datos >= 1.0.0",
+      "Ejercicio01.Entidades >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio01.Windows\\Ejercicio01.Windows.csproj",
+      "projectName": "Ejercicio01.Windows",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio01.Windows\\Ejercicio01.Windows.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio01.Windows\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio01.Datos\\Ejercicio01.Datos.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio01.Datos\\Ejercicio01.Datos.csproj"
+            },
+            "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio01.Entidades\\Ejercicio01.Entidades.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Documents\\Programacion 2do año\\Carlos Poo\\Prog\\Practico06\\Ejercicio01.Entidades\\Ejercicio01.Entidades.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

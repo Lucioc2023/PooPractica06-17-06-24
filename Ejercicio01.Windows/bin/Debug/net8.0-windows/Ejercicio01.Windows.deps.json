@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ejercicio01.Windows/1.0.0": {
+        "dependencies": {
+          "Ejercicio01.Datos": "1.0.0",
+          "Ejercicio01.Entidades": "1.0.0"
+        },
+        "runtime": {
+          "Ejercicio01.Windows.dll": {}
+        }
+      },
+      "Ejercicio01.Datos/1.0.0": {
+        "runtime": {
+          "Ejercicio01.Datos.dll": {}
+        }
+      },
+      "Ejercicio01.Entidades/1.0.0": {
+        "runtime": {
+          "Ejercicio01.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercicio01.Windows/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ejercicio01.Datos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ejercicio01.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
